@@ -27,8 +27,6 @@ Sample Curl request
 GET /logs/{file}?search={keyword}&limit={value}
 ```
 
-
-
 ## How to run test
 
 To run the test, you need to run:
@@ -36,3 +34,7 @@ To run the test, you need to run:
 ```bash
 npm run test
 ```
+
+## Bonus Implementation
+
+I can extend the API to connect all the secondary machine api and scp those files to master and collect these information in similar fashion. Lastly display all the information.
